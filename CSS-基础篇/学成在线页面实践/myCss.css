@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f3f5f7;
+}
+
+/* 版心居中 */
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 清除浮动 */
+.clearfix {
+    overflow: hidden;
+}
+
+/* 头部 */
+.header {
+    height: 42px;
+    background-color: pink;
+    margin: 30px auto; 
+}
+.logo {
+    float: left;
+    height: 42px;
+    background-color: aqua;
+
+   
+}
+
+.nav {
+    float: left;
+    margin-left: 70px;
+    height: 42px;
+}
+
+.nav li {
+    float: left;
+    height: 42px;
+    padding: 0 9px;
+    margin-right: 26px;
+    line-height: 42px;
+
+    font-size: 18px;
+    
+}
+.nav a {
+    color: #050505;
+}
+
+.nav li:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+.search {
+    float: left;
+    margin-left: 59px;
+    width: 412px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+}
+
+.search input {
+    float: left;
+    padding-left: 20px;
+    width: 342px;
+    height: 38px;
+    border: 0;
+}
+
+.search input::placeholder {
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.search button {
+    float: left;
+    border: 0;
+    width: 50px;
+    height: 40px;
+    background-image: url('./image/btn.png');
+}
