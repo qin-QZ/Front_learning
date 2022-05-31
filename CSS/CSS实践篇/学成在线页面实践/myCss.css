@@ -251,7 +251,7 @@ a {
     margin-right: 0px;
 }
 
-.course .content li img{
+.course .content li .pic{
     width: 228px;
 }
 
@@ -269,6 +269,17 @@ a {
 .course .content li span {
     color: #ff7c2d;
 }
+
+.course .content li {
+    position: relative;
+}
+
+.course .content li .hot {
+    position: absolute;
+    right: -4px;
+    top: 4px;
+}
+
 
 .footer {
     margin-top: 40px;
