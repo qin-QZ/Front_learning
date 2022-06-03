@@ -1,0 +1,193 @@
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* 快捷导航 */
+.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+
+.shortcut .wrapper {
+    height: 52px;
+}
+
+.shortcut .wrapper ul {
+    float: right;
+}
+
+.shortcut .wrapper ul li {
+    float: left;
+    line-height: 52px;
+}
+
+.shortcut .wrapper a {
+    padding: 0 16px;
+    font-size: 14px;
+    color: #dcdcdc;
+    border-right: 1px solid #666;
+}
+
+.shortcut .wrapper a span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 14px;
+    height: 16px;
+    background-image: url('../images/ipone.ico');
+}
+
+.header {
+    margin: 30px auto;
+    height: 70px;
+}
+
+.header .logo img{
+    width: 207px;
+    height: 70px;
+}
+.header .logo {
+    float: left;
+}
+
+.header .nav {
+    float: left;
+    margin-left: 40px;
+    height: 70px;
+}
+
+.header .nav li {
+    float: left;
+    padding-right: 48px;
+    line-height: 70px;
+}
+
+.header .nav li a {
+    padding-bottom: 7px;
+}
+.header .nav li a:hover {
+    
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+
+.header .search {
+    position: relative;
+    float: left;
+    margin-top: 24px;
+    margin-left: 34px;
+    width: 172px;
+    height: 30px;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+.header .search input {
+    padding-left: 30px;
+    width: 172px;
+    height: 28px;
+}
+
+.header .search input::placeholder {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.search span {
+    position: absolute;
+    left: 2px;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    background-image: url('../images/search.png');
+}
+
+.header .car {
+    position: relative;
+    float: left;
+    margin-top: 28px;
+    margin-left: 15px;
+    width: 18px;
+    height: 18px;
+    background-image: url('../images/car.png');
+}
+
+.header .car span{
+    /* 因为这里是绝对定位，盒子具备了行内块的特点 */
+    position: absolute;
+    top: -6px;
+    right: -13px;
+    width: 20px;
+    height: 15px;
+    background-color: #e26237;
+    border-radius: 8px;
+
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+
+/* 版权 */
+
+.footer {
+    height: 342px;
+    background-color: #333;
+}
+
+.wrapper {
+    width: 1393px;
+}
+
+.footer .top {
+    padding-top: 59px;
+    padding-left: 135px;
+    height: 175px;
+    border-bottom: 1px solid #434343;
+}
+
+.footer .top ul li {
+    position: relative;
+    float: left;
+    margin-right: 300px;
+    width: 195px;
+    height: 58px;
+}
+
+.footer .top ul li:last-child {
+    margin-right: 0px;
+}
+
+.footer .top li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.footer .top li img {
+ 
+    width: 58px;
+    height: 58px;
+    vertical-align: middle;
+}
+
+.footer .top li span {
+    margin-left: 10px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.footer .bottom {
+    padding-top: 40px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.footer .bottom p {
+    margin-bottom: 20px;
+}
+
+.footer .bottom a {
+    font-size: 14px;
+    color: #999;
+}
