@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<style>
+    .box {
+        position: relative;
+    }
+
+    .box img {
+        width: 400px;
+    }
+
+    .box .title {
+        position: absolute;
+        left: 15px;
+        bottom: 20px;
+        z-index: 2;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .box .mask {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 400px;
+        height: 283px;
+        background-image: linear-gradient(
+            transparent,
+            rgba(0, 0, 0, 0.6)
+        );
+        transition: all .5s;
+    }
+
+    .box:hover .mask{
+        z-index: 3;
+    }
+
+</style>
+<body>
+    <div class="box">
+        <img src="./images/green.jpg" alt="">
+        <div class="title">
+            HUAWEI MateBook 16s 
+        </div>
+        <!-- 渐变背景 -->
+        <div class="mask">
+
+        </div>
+    </div>
+</body>
+<script>
+    
+</script>
+</html>

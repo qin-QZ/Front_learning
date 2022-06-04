@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<style>
+
+    .box {
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        /* 使用动画 */
+        animation: changeStatus 5s linear infinite alternate;
+    }
+
+    /* 定义动画宽度  从200  到 600 */
+    @keyframes changeSize {
+        from {
+            width: 200px;
+        }
+        to {
+            width: 600px;
+        }
+    }
+
+    /* 定义动画  200 到 500*300 到 800 * 500 */
+    /* 
+        百分比：代表动画总时长的占比
+    */
+    @keyframes changeStatus {
+        0% {
+            width: 200px;
+        }
+
+        50% {
+            width: 500px;
+            height: 300px;
+        }
+
+        100% {
+            width: 800px;
+            height: 500px;
+        }
+    }
+
+</style>
+<body>
+    <div class="box ">
+
+    </div>
+</body>
+<script>
+    
+</script>
+</html>
