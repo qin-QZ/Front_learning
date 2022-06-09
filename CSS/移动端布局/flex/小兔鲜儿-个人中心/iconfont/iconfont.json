@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "30178403",
+      "name": "上一曲",
+      "font_class": "shangyiqu",
+      "unicode": "100da",
+      "unicode_decimal": 65754
+    }
+  ]
+}
